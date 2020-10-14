@@ -1,0 +1,18 @@
+ul.gifs-list {
+  padding: 0;
+  list-style: none;
+}
+
+ul.gifs-list li {
+  display: inline-block;
+  height: 100px;
+  margin: 5px;
+}
+
+ul.gifs-list li img {
+  height: 100%;
+}
+
+ul.gifs-list--square li img {
+    width: 100px;
+}
